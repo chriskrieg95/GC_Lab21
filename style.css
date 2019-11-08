@@ -14,17 +14,17 @@
 }
 .bg-img2 {
   /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3264&q=80");
+  background-image: url("https://images.unsplash.com/photo-1504039116446-cb65282c0699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
 
-  min-height: 700px;
+  min-height: 1000px;
 
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+ /* background-position: center;*/
+  background-repeat: repeat;
   background-size: cover;
 
   /* Needed to position the navbar */
-  position: relative;
+  /*position: center center;*/
 }
 
 /* Position the navbar container inside the image */
